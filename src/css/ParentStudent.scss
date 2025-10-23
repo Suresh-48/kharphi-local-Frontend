@@ -1,0 +1,44 @@
+.buttoncolps{
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+.materialtableps{
+margin-top: 15px;
+}
+.buttonps{
+  width: 20%;
+}
+
+.delect-icon-style{
+  font-size: 18px !important;
+  width: 1.2em !important;
+}
+
+.alert-text{
+  color:black !important;
+  font-size: 1.1em !important;
+  padding:20px 0px;
+}
+
+.delete-content{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation-button, .confirmation-button:hover{
+  color:#ba2727;
+  cursor: pointer;
+}
+
+.delete-cancel-button{
+   color:black;
+}
+
+.modal-main-content{
+ justify-content: center !important;
+ border-radius: 8px !important;
+}

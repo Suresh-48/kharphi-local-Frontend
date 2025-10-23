@@ -1,0 +1,17 @@
+.title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.file-upload {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.selected_file {
+  margin-top: 30px;
+}
+.error_text {
+  font-weight: 500;
+  color: red;
+}

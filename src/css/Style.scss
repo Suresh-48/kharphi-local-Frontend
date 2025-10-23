@@ -1,0 +1,32 @@
+@import "variables";
+
+body {
+  font-family: $theme-font !important;
+  font-size: $button-font-size;
+}
+
+.navbar {
+  background-color: #e9ecef !important;
+}
+
+.footer-container {
+  padding-left: -0.75rem;
+  padding-right: -0.75rem;
+}
+
+.footer-content {
+  background-color: #e9ecef;
+  height: 60px;
+  margin: -15px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  @media (min-width:1150px) {
+    padding: 50px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: RED !important;
+}

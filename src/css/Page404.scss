@@ -1,0 +1,13 @@
+.page-not-found-404 {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    font-size: 3.5rem;
+  }
+}
+
+// Page Not Found Starts
+.page-not-found {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,39 @@
+.error-message {
+  font-size: 12px;
+}
+.link-decoration {
+  text-decoration: none;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+.signup-link-color {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #e9eaf3;
+  font-size: 17px;
+  color: black;
+}
+.signup-link-color:hover {
+  background-color: #375474;
+  color: whitesmoke;
+}
+.Modal-border {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+.signup-container {
+  @media only screen and (min-width: 280px) and (max-width: 740px) {
+    margin-left: -15% !important;
+  }
+}
+.Botcard {
+  position: relative;
+  width: 350px;
+  @media only screen and (min-width: 280px) and (max-width: 740px) {
+    height: 492px !important;
+    width: 260px !important;
+  }
+}

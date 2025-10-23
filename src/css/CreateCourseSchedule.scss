@@ -1,0 +1,74 @@
+.start-time-style {
+  width: 100%;
+  border: 1px solid #dadfe3 !important;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 4px;
+  height: 40px;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 7px 10px !important;
+}
+
+.save-changes {
+  width: 25% !important;
+  background: var(--primaryColor) !important;
+  color: white !important;
+  border-radius: 5;
+  @media (max-width: 768px) {
+    width: 35% !important;
+  }
+  @media (max-width: 576px) {
+    width: 50% !important;
+    font-size: 12px !important;
+  }
+}
+
+.timezone-picker {
+  width:100% !important;
+}
+
+.timezone-picker-textfield input {
+  display: block;
+  width: 100% !important;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  // transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.create-button-styles {
+  background: var(--primaryColor) !important;
+  color: white !important;
+  width: 25% !important;
+  border-radius: 5;
+  @media (max-width: 768px) {
+    width: 35% !important;
+  }
+  @media (max-width: 576px) {
+    width: 50% !important;
+    font-size: 12px !important;
+  }
+}
+
+.Toastify__toast-body > div:last-child {
+  color: black;
+}
+.dropdown-option {
+  margin-top: 1px !important;
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+}
+.dropdown-names {
+  margin-left: 15px;
+}

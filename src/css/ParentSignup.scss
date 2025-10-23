@@ -1,0 +1,159 @@
+.form-width {
+  height: 40;
+  border-width: 0.5;
+  border-radius: 4;
+  width: "100%";
+}
+.form-control:focus {
+  outline: none;
+  border: none;
+}
+.teacher-description {
+  border: 1px solid #ced4da;
+  padding: 2px;
+  min-height: 100px;
+  border-radius: 0.25rem !important;
+}
+.captcha-field{
+  @media only screen and (min-width: 280px) and (max-width: 740px) {
+    width: 111% !important;
+  }
+}
+.captcha-alignment{
+  @media only screen and (min-width: 280px) and (max-width: 740px) {
+    margin-left: 28% !important;
+  }
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+.outline-cancel{
+  @media only screen and (min-width: 280px) and (max-width: 740px) {
+    padding: 2% 15% 2% 15% !important;
+  }
+}
+.google-login button {
+  display: inline-flex;
+  justify-content: center !important;
+  align-items: center;
+  width: 100% !important;
+  color: black !important;
+  font-weight: 900 !important;
+  padding: 0px;
+  border-radius: 10px !important;
+  border: 1px solid #bfbdbd !important;
+  box-shadow: none !important;
+}
+
+.kep-login-facebook {
+  width: 100% !important;
+  color: black !important;
+  font-weight: unset !important;
+  text-transform: none !important;
+  padding: 10px !important;
+  // font-family: Roboto, sans-serif !important;
+  font-family: "Armata", sans-serif !important;
+  font-size: 14px !important;
+  border-radius: 10px !important;
+  border: 1px solid #bfbdbd !important;
+  box-shadow: none !important;
+  background-color: #ffffff !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.kep-login-facebook .fa {
+  margin-right: 15px !important;
+  color: #4968ad !important;
+  font-size: 20px !important;
+}
+
+hr.or-divider {
+  margin-bottom: 10px;
+  overflow: visible;
+  border: none;
+  border-top: 1px solid gray;
+  text-align: center;
+  color: black !important;
+  font-weight: 700;
+  font-family: none !important;
+}
+
+hr.or-divider::after {
+  content: "Or";
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 16px;
+  color: black !important;
+  font-size: 18px;
+  background: #fff;
+}
+
+.avatar-profile-image-size{
+  height: 250px !important;
+  width: 100% !important;
+  border-radius: 15% !important;
+  cursor: pointer !important;
+  object-fit: cover !important;
+}
+.captcha-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.captcha-text {
+  cursor: pointer;
+  color: blue;
+}
+.captcha-primary {
+  background-color: #b3b1b1;
+  padding-top: initial;
+  margin-left: 5%;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  
+}
+@media (min-width: 320px) and (max-width: 420px) {
+  .captcha-form-alignment{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-left: 20px !important;
+    margin-right: 15px !important;
+  }
+}
+  
+
+
+
+// .font-captcha {
+//   display: flex;
+//   align-items: center;
+//   margin-left: 5px;
+// }
+// .captcha-text {
+//   display: inline; /* the default for span */
+// width: 35%;
+//   padding: 5px;
+//   border: 1px solid blue;
+//   font-family: cursive;
+//   background-color: #607d8b63;
+// }
+.captcha-text {
+  display: flex;
+  justify-content: center;
+ 
+}
+.font-text{
+  border: 1px solid blue;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #607d8b63;
+  font-family: cursive;
+}
+// svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa:hover:{
+//             cursor: "pointer",
+//             backgroundColor: "rgba(224, 224, 224, 1) ",
+//           },

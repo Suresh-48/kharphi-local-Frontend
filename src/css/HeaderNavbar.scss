@@ -1,0 +1,49 @@
+.navigate-profile-link {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  padding-left: 10px;
+}
+
+.avatar-list {
+  padding: 5px;
+  background-color: unset !important;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  min-width: 7rem !important;
+  @media (min-width: 768px) {
+    right: 0;
+  }
+}
+
+.avatar-style {
+  padding-top:2px !important;
+  color: #1d1464 !important;
+  cursor: pointer;
+}
+
+.avatar-content-style {
+  display: grid;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.navbar-style {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.carousel-control-next {
+  right: 0;
+  z-index: 0;
+}
+
+.carousel-control-prev {
+  left: 0;
+  z-index: 0 !important;
+}

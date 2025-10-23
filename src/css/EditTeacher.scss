@@ -1,0 +1,74 @@
+.teacher-edit-profile {
+  display: flex;
+  justify-content: left;
+}
+
+.teacher-edit-profile-last {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.teacher-edit-profile-color {
+  
+  font-weight: 700;
+  color: #1c1364;
+}
+
+// .teacher-edit-profile-btn-color{
+//   background-color: #1c1364;
+// }
+.edit-profile-btn {
+  background-color: #1c1364 !important;
+}
+
+.profile-tag {
+  width: 50%;
+}
+
+.teacher-profile-screen {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.teacher-profile-width-text {
+  width: 50%;
+}
+
+.teacher-profile-width-bold {
+  font-weight: bolder;
+  width: 50%;
+}
+
+.teacher-prf-width-text {
+  width: 40%;
+}
+
+.teacher-prf-width-bold {
+  font-weight: bolder;
+  width: 60%;
+}
+
+@media (min-width:767px) and (max-width:867px) {
+  .teacher-profile-avatar-image {
+    width: 132px !important;
+  }
+}
+@media (min-width:868px) and (max-width:965px) {
+  .teacher-profile-avatar-image {
+    width: 159px !important;
+  }
+
+}
+.teacher-profile-card-height{
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+.bank-details-bg{
+  background-color: whitesmoke;
+  color: #4c3eb5;
+  border-radius: 10px;
+}

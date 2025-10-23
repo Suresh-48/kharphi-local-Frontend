@@ -1,0 +1,23 @@
+.adminstudent-title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.popup-container-Style {
+  min-width: 40% !important;
+  width: 100% !important ;
+  min-height: 60% !important;
+  background-color: white;
+}
+.popup-body-style {
+  height: 585px !important;
+}
+@media (max-width: 576px) {
+  .popup-body-style {
+    height: 680px !important;
+  }
+}
+.popup-header-close-style {
+  border-bottom-width: unset !important;
+  border-bottom-style: unset !important;
+}

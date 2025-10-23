@@ -1,0 +1,47 @@
+@import 'Mixin';
+@import 'Variables';
+
+%row {
+  flex-direction: row;
+}
+
+.content-back {
+  background-color: $gray-back;
+ @include radius(5px);
+  font-size: 18px;
+}
+
+.col-r1 {
+ @include center;
+  margin-top: 5px;
+  @include margin-bottom(5px);
+}
+
+h6 {
+  display: contents;
+  color: $gray;
+}
+
+.card-div {
+  @include center;
+  margin-top: 5px;
+   @include margin-bottom(5px);
+  @extend %row;
+}
+
+.container-class {
+ @include center;
+  @extend %row;
+  margin-top: 20px;
+}
+
+.row-main {
+ @include center;
+@extend %row;
+ @include margin-bottom(20px);
+}
+
+.card-text-style {
+  display: contents;
+  text-align: center;
+}

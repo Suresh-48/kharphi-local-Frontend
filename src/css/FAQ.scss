@@ -1,0 +1,45 @@
+.teacher-menu-dropdown {
+    background-color: unset !important;
+    border-color: transparent !important;
+    border: unset !important;
+    box-shadow: unset !important;
+  }
+  // Dropdown caret icon hide
+  .dropdown-toggle::after{
+    display: none !important;
+  }
+  .faq-head-drop{
+      display: flex;
+      justify-content: space-between;
+  }
+  .faq-fontawesome{
+      color: grey;
+      font-size: 28px;
+      width: 50px;
+  }
+  .paragraph-tag-faq{
+      text-align: justify;
+  }
+  .faq-footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: #375474;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: archivo narrow,sans-serif;
+  }
+  .faq-main-div{
+    margin: auto;
+    width: 90%;
+    margin-top: 80px;
+  }
+  .sliding-img{
+    margin: auto;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;
+  }

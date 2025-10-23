@@ -1,0 +1,418 @@
+@import "./bootstrap.css";
+@import url("https://fonts.googleapis.com/css2?family=Armata&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Armata", sans-serif;
+}
+.loader-color {
+  color: #375474;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100% !important;
+}
+/* Create Button */
+.create-active {
+  border: #375474 !important;
+  background-color: #375474 !important;
+  color: white !important;
+}
+.center-alignment {
+  height: 365px;
+  display: flex;
+  align-items: center;
+}
+
+.create-disable {
+  background-color: #375474 !important;
+  opacity: 0.7 !important;
+  color: white !important;
+}
+@media (max-width: 768px) {
+  .create-disable {
+    font-family: 13px !important;
+  }
+}
+@media (max-width: 576px) {
+  .create-disable {
+    font-size: 13px !important;
+  }
+}
+.outline-cancel {
+  width: 10% !important;
+  height: 40px;
+  border: 3px #e9eaf3 !important;
+  border-radius: 5px;
+  background-color: #e9eaf3 !important;
+  color: black !important;
+  font-size: 16px !important;
+}
+.signup-card-color {
+  background-color: #63dafa;
+}
+.Kharpi-cancel-btn {
+  height: 37px;
+  border: 3px #e9eaf3 !important;
+  border-radius: 5px;
+  background-color: #e9eaf3 !important;
+  color: black !important;
+  font-size: 16px !important;
+}
+.MuiButton-label {
+  width: 100% !important;
+}
+.page-item.active .page-link {
+  background-color: #375474 !important;
+  border-color: #375474 !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+  color: #375474 !important;
+}
+/* .outline-cancel:hover{
+  background-color: gray;
+  color: white;
+  border-radius: 10%;
+} */
+/* Save Changes */
+.save-changes-active {
+  border: 3px #375474 !important;
+  background-color: #375474 !important;
+  color: white !important;
+  font-size: 16px !important;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #375474 !important;
+}
+
+.save-changes-disable {
+  background-color: #00000031 !important;
+  color: white !important;
+  font-size: 16px !important;
+  border: 3px #3f51b5 !important;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Login Button */
+.login-button {
+  width: 100% !important;
+  border-radius: 5;
+}
+
+/* Sign Up */
+.create-account-active {
+  border: 3px #375474 !important;
+  background-color: #375474 !important;
+  color: white !important;
+  font-size: 14px !important;
+  padding: 8px 15px !important;
+}
+
+.create-account-disable {
+  background-color: #00000031 !important;
+  color: white !important;
+  font-size: 14px !important;
+  padding: 8px 15px !important;
+}
+
+.error {
+  font-size: 14px !important;
+}
+
+::placeholder {
+  text-transform: none;
+  font-size: 12px;
+}
+
+/* Select Drop down placeholder styles */
+.css-14el2xx-placeholder {
+  color: hsl(0, 0%, 50%);
+  grid-area: 1/1/2/3;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+/* DropDown style */
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 1px 10px !important;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+/* Survey JS Creator Save Button  */
+.svd_container:not(.sv_modern_css) .btn:focus {
+  box-shadow: none !important;
+}
+
+/* Hide Title Description */
+.svd_page > .description_editable {
+  margin-bottom: 2em;
+  display: none;
+}
+
+/* Hide Title */
+.svd_page > .title_editable .svda-title-editor-start {
+  visibility: visible;
+  display: none;
+}
+
+/* Hide Logo */
+.svd_survey_header--hidden title-actions {
+  background-color: transparent;
+  display: none;
+}
+
+/* Reduce Margin Top in Survey Js Creator */
+.panel-body .card-block .mt-4 {
+  margin-top: 0 !important;
+}
+
+/* Hide dialog box in Survey JS Creator */
+.svd_container .svd_commercial_container {
+  padding: 1em 0 0.5em 2em;
+  display: none;
+}
+
+.spanner {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  background: #2a2a2adb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  color: #fff;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.forgot-note {
+  color: red;
+  font-size: 12px;
+}
+.admin-student-upcominglist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3f51b5;
+}
+
+.login-button {
+  width: 100% !important;
+  border-radius: 5;
+}
+.signup-button {
+  width: 80% !important;
+  border-radius: 5;
+}
+.MuiButton-containedPrimary {
+  color: #fff !important;
+  background-color: #375474 !important;
+  border-color: #375474;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #375474;
+  /* border: #375474; */
+}
+.MuiButton-containedPrimary::after {
+  background-color: #375474;
+  border: #375474;
+}
+.outline {
+  outline: gray;
+}
+
+.linkColor {
+  color: #375474;
+}
+.linkColor:hover {
+  color: #375474;
+}
+.MuiButton-containedPrimary:disabled {
+  background-color: #375474;
+  border: #375474;
+  opacity: 0.5;
+}
+.MuiButton-containedPrimary:active {
+  background-color: #375474;
+  border: #375474;
+}
+.MuiButton-containedPrimary:focus {
+  background-color: #375474;
+  border: #375474;
+  box-shadow: #375474;
+}
+.MuiButton-containedPrimary:active:focus {
+  box-shadow: #375474;
+}
+
+/* edit draft js padding */
+.rdw-editor-main {
+  padding-left: 10px;
+}
+.MuiTableSortLabel-root:hover {
+  color: #fff !important;
+}
+.btn-primary {
+  border-color: #375474 !important;
+}
+.MuiTableSortLabel-root.MuiTableSortLabel-active {
+  color: #fff !important;
+}
+
+.css-1a1fmpi-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none !important;
+}
+.css-g9cew8-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none !important;
+}
+.btn-primary:focus {
+  box-shadow: none !important;
+  background-color: #375474 !important;
+  border-color: #375474 !important;
+}
+.dashboard-card-color {
+  color: blue;
+}
+
+.first-name-last {
+  color: #fff;
+}
+
+text.first-name-last-overflow {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+/* Add button color */
+.MuiIconButton-colorInherit {
+  color: red !important;
+}
+.navbarbrand-alignment {
+  left: 75px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 75px;
+    top: 0px;
+  }
+}
+.material-table-bt-color {
+  font-size: 12px !important;
+  /* background-color: #0063cc !important; */
+}
+/* .MuiIconButton-colorPrimary {
+  color: #3f51b5 !important;
+}
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #3f51b5 !important;
+}
+.MuiCheckbox-root {
+  color: aliceblue !important;
+} */
+/* // overwrite the checkbox background */
+/* ::ng-deep .mat-checkbox-checked .mat-checkbox-background,
+.mat-checkbox-indeterminate .mat-checkbox-background {
+  background-color: red !important;
+}
+
+/* overwrite the ripple overlay on hover and click */
+/* ::ng-deep .mat-checkbox:not(.mat-checkbox-disabled) .mat-checkbox-ripple .mat-ripple-element {
+  background-color: white !important;
+}  */
+
+.colspan-data-alignment {
+  vertical-align: middle;
+}
+.teacher-payment-color {
+  background-color: #1d1464;
+  padding: 7px 7px;
+  border: #1d1464 solid;
+  border-radius: 3px;
+  color: #fff;
+  font-size: small;
+}
+.confirm-payment-btn {
+  color: #fff !important;
+  background-color: #1d1464 !important;
+  border: #1d1464 solid;
+  border-radius: 3px;
+}
+.confirm-payment-cancel-btn {
+  border-radius: 3px;
+  border: #e9eaf3 solid !important;
+  /* color: #212529 !important; */
+}
+/* .confirm-payment-cancel-btn:hover{
+  background-color: #1d1464;
+  color: #fff;
+} */
+.Teachr-pay-msg {
+  color: #1d1464;
+  text-align: center;
+}
+.footer-bottom-alignments {
+  min-height: 55vh !important;
+}
+.public-footer-col-width {
+  min-width: 131px;
+}
+.sign-up-button {
+  cursor: pointer;
+  color: blue;
+}
+.footer-min-height {
+  /* min-height: 100%; */
+  min-height: 89vh;
+}
+/* .MuiTableRow-root {
+  overflow: hidden !important;
+} */
+.material-table-responsive {
+  max-width: 100%;
+  overflow: hidden;
+}
+.bank-save-btn {
+  background-color: #1d1464 !important;
+  color: #fff !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

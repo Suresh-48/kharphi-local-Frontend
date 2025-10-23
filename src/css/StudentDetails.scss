@@ -1,0 +1,72 @@
+.details {
+  display: flex;
+  align-items: center;
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.para {
+  padding-right: 10px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 220px;
+}
+
+.card-style {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+}
+
+.student-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-style {
+  display: flex;
+}
+
+.row-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.student-detail {
+  justify-content: center;
+  display: flex;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+.course-card-style {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.user-avatar-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.popup-card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.popup-label-style {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.popup-count-style {
+  font-size: larger;
+  font-weight: bolder;
+}
+.popup-Container-style {
+  margin-top: "70%";
+  margin-bottom: "70%";
+}

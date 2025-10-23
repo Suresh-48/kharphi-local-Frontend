@@ -1,0 +1,60 @@
+.studentdash-one {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.studentdash-two {
+  margin-top: 3%;
+}
+.viewAll-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0cm;
+  padding-bottom: 0%;
+}
+.viewHeader {
+  text-align: center;
+  height: 40px;
+}
+.viewRow {
+  text-align: center;
+}
+
+.zoom-view-style {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #375474 !important;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.zoom-view-disable-style {
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #868686;
+  white-space: nowrap;
+}
+.viewAll-link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.enroll-link {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.student-table {
+  margin-top: 1%;
+  // min-height: 250px;
+}
+.dashboard-button-style{
+  width: 24%;
+}

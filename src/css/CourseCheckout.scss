@@ -1,0 +1,128 @@
+.user-value {
+  display: flex;
+  align-items: center;
+}
+.course-amount-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-width {
+  height: 40;
+  border-width: 0.5;
+  border-radius: 4;
+  width: "100%";
+}
+
+.button-width-checkout {
+  width: 30%;
+}
+
+.checkout-active {
+  width: 30% !important;
+  border:3px #375474 !important;
+  background-color: #375474 !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+  .checkout-active {
+    width: 40% !important;
+    font-family: 13px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .checkout-active {
+    width: 60% !important;
+    font-size: 13px !important;
+  }
+}
+
+.checkout-disable {
+  width: 30% !important;
+  background-color: #00000031 !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+@media (max-width: 768px) {
+  .checkout-disable {
+    width: 40% !important;
+    font-family: 13px !important;
+  }
+}
+@media (max-width: 576px) {
+  .checkout-disable {
+    width: 60% !important;
+    font-size: 13px !important;
+  }
+}
+
+
+.dropdown-style {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #a59f9f75;
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(95, 95, 95);
+}
+
+select:focus {
+  border-color: none !important;
+}
+
+select option {
+  color: black;
+}
+
+select option:first-child {
+  color: gray;
+  padding-top: 20px;
+}
+.processing-content {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-success-style {
+  font-size: x-large;
+  color: darkgreen;
+  font-weight: 700;
+}
+.success-content {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ok-button-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.ok-button-style{
+    width: 180px;
+}
+.stripe-card-width{
+  width: 50%;
+}  
+
+.stripe-card-container{
+  padding: 25px;
+}
+@media (max-width: 576px) {
+  .stripe-card-width {
+   width: auto;
+  }
+}
+
+.payment-details{
+  display: flex;
+  justify-content: center;
+  color: red;
+}

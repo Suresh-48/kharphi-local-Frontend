@@ -1,0 +1,24 @@
+.text-decoration {
+  text-decoration: none;
+}
+
+.know{
+  font-size: 24px !important;
+  font-weight: bold;
+  text-align: center;
+  @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 18px !important;
+      font-weight: bold;
+      text-align: center;
+  }
+}
+
+.MuiPaper-root {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+.admin-dashboard-min-height {
+  min-height: 53.9vh;
+  
+}

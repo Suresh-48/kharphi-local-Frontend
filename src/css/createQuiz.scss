@@ -1,0 +1,75 @@
+.title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+.editor-style {
+  border: 1px solid #ced4da;
+  padding: 2px;
+  min-height: 250px;
+  border-radius: 0.25rem !important;
+}
+.file-name {
+  justify-content: center;
+  display: flex;
+  font-size: 17px;
+  font-weight: 500;
+}
+.file-error-message {
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(2, 92%, 49%);
+  margin-top: 10px;
+}
+.textIcon-style {
+  margin-right: 8px;
+  width: 26px;
+  height: 28px;
+}
+
+//custom
+
+.drag-and-drop-style{
+  width: 65% !important;
+  height: 300px !important;
+  border-style: dotted;
+  color: rgb(71, 177, 219);
+}
+.align-center {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+.drop-box-container{
+  display: flex;
+    justify-content: center;
+}
+.button-style{
+    width: 230px !important;
+    color: white !important;
+    background-color: #4747f7 !important;
+}
+.box-file-name {
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    margin-top: 12%;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+}
+.clear-button-style{
+    width: 230px !important;
+    color: white !important;
+    background-color: #4747f7 !important;
+}
+.spacing-top{
+  margin-top: 12% !important;
+}
+

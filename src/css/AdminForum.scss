@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Armata&display=swap");
+.Admin-forum {
+  background-color: unset !important;
+  border-color: transparent !important;
+  border: unset !important;
+  box-shadow: unset !important;
+}
+.admin-forum-color {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Admin-forum-list {
+  background-color: unset !important;
+}
+.Admin-forum-text-style {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 12px 0px;
+  font-size: 16px;
+}
+.admin-dropdown {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 8px 0px;
+  font-size: 16px;
+}
+.forum-paragraph p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (min-width: 600px) {
+  .save-changes-active {
+    font-size: 13px !important;
+  }
+}
+.aviar-technology {
+  font-family: "Armata", sans-serif;
+}

@@ -1,0 +1,14 @@
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin radius($unit) {
+  border-radius: ($unit);
+}
+
+@mixin margin-bottom($unit) {
+   margin-bottom: ($unit);
+}

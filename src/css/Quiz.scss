@@ -1,0 +1,80 @@
+.quiz-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  @media (max-width: 575.98px) {
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+}
+
+.welcome-text {
+  font-size: 12px !important;
+}
+.coursename-text {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.heading-bottom {
+  border: 1px solid #000000;
+  width: 100%;
+}
+
+.table > :not(:first-child) {
+  border-top: 2px solid lightgray;
+}
+
+// .sv_main .sv_body {
+//   background-color: white;
+//   // border-top: 2px solid #bfbdbd;
+//   border-top: none !important;
+//   width: 100%;
+// }
+// .sv_main input[type="button"],
+// .sv_main button {
+//   appearance: none;
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   font-size: 1em !important;
+//   font-weight: bold;
+//   line-height: 2em;
+//   border: none;
+//   width: 30% !important;
+//   cursor: pointer;
+//   padding: 3px 2em;
+//   border-radius: 5px;
+// }
+// .sv_main input[type="button"],
+// .sv_main button {
+//   color: white;
+//   background-color: #3f51b5;
+// }
+// .sv_main input[type="button"]:hover,
+// .sv_main button:hover {
+//   background-color: #3f51b5;
+// }
+
+.mark-table::-webkit-scrollbar {
+  display: none;
+}
+.mark-table {
+  -ms-overflow-style: none;
+}
+.textarea {
+  width: 100%;
+  padding: 0%;
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.option-list .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  padding-left: 10px;
+  color: #b0b0b0;
+}
+
+.file-upload-answer{
+  word-break: break-all;
+}

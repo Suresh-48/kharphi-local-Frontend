@@ -1,0 +1,81 @@
+.user-name {
+  justify-content: center;
+  display: flex;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 10% 0 0 0 !important;
+  padding: 0 !important;
+  // margin-bottom: 0px !important;
+}
+.label-style {
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+.detail-style {
+  // font-weight:bold;
+  margin-left: 5px !important;
+}
+.teacher-specality{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: small;
+}
+.aboutUs-label-style {
+  font-size: larger;
+  font-weight: bold;
+}
+.teacher-profile-public-alignment{
+  @media only screen and (min-width: 280px) and (max-width: 740px) {
+    margin-left: 15% !important;
+  }
+
+}
+.teacher-email{
+  border: 10px;
+}
+.left-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image-size{
+  height: 200px !important;
+  width: 100% !important;
+  border-radius: 15% !important;
+  cursor: pointer !important;
+  object-fit: cover !important;
+}
+@media (max-width: 768px) {
+  .profile-image-size {
+   height: 125px !important;
+    width: 100% !important;
+  object-fit: cover !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-image-size {
+   width: 70% !important;
+    height: 180px!important;
+  object-fit: cover !important;
+  }
+}
+
+.teacher-profile-header {
+  height: 50px !important;
+  // background-color: #f8f9fa !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+@media (max-width: 576px) {
+  .teacher-profile-header {
+    height: 110px !important;
+  }
+}
+
+.public-page{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}

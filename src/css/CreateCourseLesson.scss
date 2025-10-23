@@ -1,0 +1,17 @@
+.description {
+    border: 1px solid #ced4da;
+    padding: 2px;
+    min-height: 100px;
+    border-radius: 0.25rem !important;
+  }
+  .descriptions-text-align {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    vertical-align: middle;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical;
+  }

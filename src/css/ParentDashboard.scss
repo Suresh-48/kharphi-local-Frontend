@@ -1,0 +1,122 @@
+.main-card {
+  margin-top: 20px;
+}
+
+.card-style-dashboard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-self: center;
+  // height: 150px !important;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  height: 100%;
+}
+
+.card-style-dashboard:hover {
+  background-color: #e9eaf3;
+  // .student-count-style h5 {
+  //   color: #fff;
+  // }
+  // .dashboard-card-color {
+  //   color: #fff;
+  // }
+}
+
+.student-count-style {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer-style {
+  align-self: center;
+}
+
+.countup-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.Kharpi-save-btn {
+  background-color: #375474;
+  border-color: #375474;
+}
+
+.Kharpi-save-btn:hover {
+  background-color: #375474;
+  opacity: 0.9;
+}
+
+.Kharpi-save-btn::after {
+  background-color: #375474;
+  opacity: 0.9;
+}
+
+.table {
+  margin-top: 3%;
+  margin-left: 0%;
+}
+
+.heading-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.borderless td,
+.borderless th {
+  border: none;
+}
+
+.student-list-title {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enroll-style {
+  font-weight: 500;
+}
+
+.parentdash-two {
+  margin-top: 3%;
+}
+
+.viewAll-link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.enroll-link {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.parent-table {
+  margin-top: 1%;
+}
+
+.dashboard-button-style {
+  width: 24%;
+}
+
+.student-count-style h5 {
+  color: black;
+}
+
+// .student-count-style h4 a  {
+//   color: #1f61c2;
+// }

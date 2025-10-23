@@ -1,0 +1,129 @@
+.slider-count {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-style {
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  @media (max-width: 575.98px) {
+    width: 30%;
+  }
+}
+.filter-type-name {
+  display: flex;
+  font-size: medium;
+  margin-bottom: 1rem;
+  @media (max-width: 575.98px) {
+    font-size: 12px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 14px;
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    font-size: 16px;
+  }
+}
+
+.multiSelectContainer input {
+  @media (max-width: 575.98px) {
+    font-size: 10px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 14px;
+  }
+}
+
+.input-font-style {
+  @media (max-width: 575.98px) {
+    font-size: 10px;
+  }
+}
+
+.searchWrapper {
+  background-color: white;
+}
+.apply-button {
+    width: auto;
+}
+.image-content {
+  position: relative;
+  text-align: center;
+}
+.height-style-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 370px !important;
+  margin-bottom: 30px;
+}
+.image-height-card {
+  height: 150px !important;
+  @media (max-width: 768px) {
+    height: 150px !important;
+  }
+}
+.style-footer-price{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.link-nav-style {
+  text-decoration: none;
+}
+.all-course-card-height {
+  height: 370px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  @media (max-width: 767px) {
+    height: 390px !important;
+  }
+}
+.filter-container{
+  display: flex;
+  justify-content: end;
+}
+
+$font-size: 16px;
+$line-height: 1.5;
+$lines-to-show: 3;
+
+.ellipsis-text {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  font-size: $font-size !important;
+  line-height: $line-height !important;
+  -webkit-line-clamp: $lines-to-show !important;
+  -webkit-box-orient: vertical;
+}
+.multiSelectContainer input {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.search-col{
+
+  width: 350px;
+  @media (max-width:463px){
+    width: 280px;
+  }
+  @media (max-width:390px){
+    width:200px
+  }
+}
+.filter-ico{
+  height: 38px !important;
+  cursor: pointer;
+}
+
+.filter-head-cls{
+  font-weight: bold;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.range-clr{
+  color: #375474 !important;
+}

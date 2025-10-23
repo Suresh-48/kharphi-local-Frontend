@@ -1,0 +1,7 @@
+
+@mixin Icon($url) {
+   background-image: url($url);
+   background-repeat: no-repeat;
+   width: 3rem;
+   height: 3rem;
+}

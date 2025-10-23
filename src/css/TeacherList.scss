@@ -1,0 +1,95 @@
+.teacher-title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.collapse-text-style {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 12px 0px;
+  font-size: 16px;
+}
+.teacher-dropdown {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 8px 0px;
+  font-size: 16px;
+}
+
+.teacher-menu-dropdown {
+  background-color: unset !important;
+  border-color: transparent !important;
+  border: unset !important;
+  box-shadow: unset !important;
+}
+// Dropdown caret icon hide
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.menu-dropdown-status {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status-list {
+  background-color: unset !important;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+$font-size: 16px;
+$line-height: 1.5;
+
+.teacher-ellipsis-text {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  font-size: $font-size !important;
+  line-height: $line-height !important;
+  -webkit-line-clamp: 1 !important;
+  -webkit-box-orient: vertical;
+}
+p.tab-paragraph {
+  margin-bottom: 0;
+  @media (max-width: 566px) {
+    font-size: small;
+  }
+  @media(max-width:548px){
+    font-size: smaller;
+  }
+  
+}
+.quiz-tab {
+  width: 100%;
+  @media (max-width: 523px) {
+    display: block;
+  }
+}
+.row-tab-review {
+  width: 50%;
+}
+$font-size: 16px;
+$line-height: 1.5;
+$lines-to-show: 1;
+
+.first-name-last-overflow{
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: $font-size  !important;
+  line-height: $line-height  !important;
+  -webkit-line-clamp: $lines-to-show  !important;
+  -webkit-box-orient: vertical;
+  color: #fff;
+}
