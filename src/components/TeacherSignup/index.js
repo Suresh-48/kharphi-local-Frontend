@@ -105,53 +105,7 @@ const SignInSchema = Yup.object().shape({
   };
 
   // Validations
-  const SignInSchema = Yup.object().shape({
-    firstName: Yup.string()
-      .matches(/^[aA-zZ\s]+$/, "Enter Valid Name")
-      .matches(/^[A-Z]/, "First Letter Must Be In Capital")
-      .required("First Name Is Required"),
 
-    middleName: Yup.string()
-      .matches(/^[aA-zZ\s]+$/, "Enter Valid Name")
-      .matches(/^[A-Z]/, "First Letter Must Be In Capital")
-      .nullable(),
-
-    lastName: Yup.string()
-      .matches(/^[aA-zZ\s]+$/, "Enter Valid Name")
-      .matches(/^[A-Z]/, "First Letter Must Be In Capital")
-      .required("Last Name Is Required"),
-
-    phone: Yup.string()
-      .matches(/^[0-9\s]+$/, "Enter Valid Phone Number")
-      .max(10, "Enter valid number")
-      .min(10, "Enter valid number")
-      .length(10)
-      .required("Phone Number Is Required"),
-    email: Yup.string().email("Enter Valid Email").required("Email Is Required"),
-    speciality: Yup.string().required("Speciality Is Required"),
-    descriptionValue: Yup.string().required("Speciality Description Is Required"),
-    // hearAboutUs:Yup.string().required("Required Field"),
-    userName: Yup.string().required("User Name Is Required"),
-    password: Yup.string()
-      .matches(
-        "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#*$%^&*])",
-        "Password Should contain Uppercase, Lowercase, Numbers and Special Characters"
-      )
-      .min(8, "Password Required Minimum 8 Characters")
-      .required("Password Is Required"),
-
-    confirmPassword: Yup.string()
-      .matches(
-        "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#*$%^&*])",
-        "Confirm Password Should contain Uppercase, Lowercase, Numbers and Special Characters"
-      )
-      .oneOf([Yup.ref("password"), null], "Password Did Not Match")
-      .required("Confirm Password Is Required"),
-    captcha: Yup.string()
-      .required("Captcha Is Required")
-      .min(6, "Captcha required minimum 6 characters ")
-      .max(6, "Captcha maximum 6 characters"),
-  });
 
   const onChangeDescription = ({ setFieldValue }, e) => {
     const editedText = convertToRaw(e.getCurrentContent());
