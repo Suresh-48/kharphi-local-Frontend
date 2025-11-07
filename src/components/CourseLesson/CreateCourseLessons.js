@@ -191,20 +191,7 @@ const createLessonSchema = Yup.object().shape({
   };
 
   // Validations
-  const createLessonSchema = Yup.object().shape({
-    lessonNumber: Yup.string()
-      .matches(
-        /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{0,4}?[ \\-]*[0-9]{0,4}?$/,
-        "This Field Accept Numbers Only"
-      )
-      .required("Lesson Number Is Required"),
 
-    lessonName: Yup.string().required("Lesson Name Is Required"),
-
-    descriptionValue: Yup.string().required("Description Is Required"),
-    lessonActualAmount: Yup.string().required("Lesson Amount Is Required"),
-    lessonDiscountAmount: Yup.string().required("Lesson Discount Amount Is Required"),
-  });
 
   return (
     <div>

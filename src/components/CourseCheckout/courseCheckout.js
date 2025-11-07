@@ -23,7 +23,6 @@ import states from "../../components/core/States";
 // Roles
 import { ROLES_PARENT, ROLES_STUDENT } from "../../constants/roles";
 import { customStyles } from "../core/Selector";
-import { useHistory } from "react-router-dom";
 
 const role = localStorage.getItem("role");
 

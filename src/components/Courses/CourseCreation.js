@@ -39,7 +39,6 @@ import Loader from "../core/Loader";
 
 //selector custom style
 import { customStyles } from "../core/Selector";
-import { useHistory } from "react-router-dom"
 
 const SignInSchema = Yup.object().shape({
   category: Yup.object().required("Category Name Is Required"),
